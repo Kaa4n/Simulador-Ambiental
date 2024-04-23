@@ -1,0 +1,25 @@
+// carro
+{
+    "tipoTransporte": "carro",
+    "tipocombustivel": "gasolina",
+    "distanciapercorrida": "100km",
+    "consumocarro": "10km/l"
+}
+
+// avião
+{
+    "tipoTransporte": "avião",
+    "tipocombustivel": "gasolina",
+    "distanciapercorrida": "100km",
+    "consumoaviao": "10km/l"
+}
+
+// onibus
+{
+    "tipoTransporte": "onibus",
+    "tipocombustivel": "gasolina",
+    "distanciapercorrida": "100km",
+    "consumoaviao": "10km/l"
+}
+
+// calculo 

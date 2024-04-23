@@ -1,0 +1,20 @@
+// URL: http://localhost:8081/simulador-ambiental/usuarios/{id}/impactos-ambientais
+
+// RESPONSE: status 200
+{
+    "emissão_co2_media_diaria": 2.5,
+    "emissão_co2_anual": 912.5,
+    "nivel_impacto": "alto" // opcional (analisar)
+}
+{
+    "taxa_de_consumo": "10km/l",
+    "densidade_gasolina":"0,75kg/l",
+    "transformação_da_gasolina":"3,7 c/CO²",
+    "volume_do_etanol":"82%",
+    "calculo_de_impacto": "km/l x 0,82 x 0,75 x 3,7 = Xkg CO²",
+}
+{
+    "calculo_de_impacto_dia": "km/l x 0,82 x 0,75 x 3,7 = Xkg CO²",
+    "calculo_de_impacto_mês": "Xkg CO² x 30",
+    "calculo_de_impacto_ano": "Xkg CO² x 365",
+}

@@ -1,0 +1,17 @@
+// URL: http://localhost:8081/simulador-ambiental/usuarios/{id}/meio-transporte
+
+// REQUEST:
+{
+    "tipo_transporte": "carro", // onibus, babacar, bicicleta/caminhada... (obrigatório)
+    "tipo_combustivel": "gasolina", // etanol, eletricidade, null (caso o transporte for bicicleta/caminhada)
+    "distancia": "100km", // obrigatório
+    "consumo_por_litro": "10km/l" // null (caso o transporte for bicicleta/caminhada)
+}
+
+// RESPONSE: status 201 sem retorno ou o msm da entrada
+{
+    "tipo_transporte": "carro", // onibus, babacar, bicicleta/caminhada... (obrigatório)
+    "tipo_combustivel": "gasolina", // etanol, eletricidade, null (caso o transporte for bicicleta/caminhada)
+    "distancia": "100km", // obrigatório
+    "consumo_por_litro": "10km/l" // null (caso o transporte for bicicleta/caminhada)
+}

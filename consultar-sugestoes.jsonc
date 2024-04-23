@@ -1,0 +1,93 @@
+// URL: http://localhost:8081/simulador-ambiental/usuarios/{id}/sugestoes
+
+// RESPONSE: status 200
+{
+    "sugestoes - distância pequena (1 - 10km)": [
+        {
+            "descricao": 
+            "Bicicleta: Para distâncias curtas, andar de bicicleta pode ser uma excelente opção. É uma maneira econômica, saudável e ecológica de se locomover. Com uma bicicleta, você pode evitar o trânsito, economizar dinheiro em combustível e manutenção de veículos, além de reduzir as emissões de CO2."
+            
+        },
+        {
+            "descricao": "Bicicleta Elétrica: Se você preferir uma opção um pouco mais rápida ou se tiver que enfrentar colinas íngremes, uma bicicleta elétrica pode ser uma ótima escolha. As bicicletas elétricas oferecem assistência ao pedalar, o que facilita o percurso e permite cobrir distâncias maiores com menos esforço."
+        },
+        {
+            "descricao": "Caminhada: Para distâncias muito curtas, considerar caminhar pode ser a opção mais simples e ecológica. Além de ser uma forma saudável de se locomover, a caminhada não emite CO2 e permite que você desfrute do ambiente ao seu redor."
+        }
+        {
+            "descricao": "Transporte Público: Dependendo da disponibilidade e da eficiência do transporte público em sua área, utilizar ônibus, metrô ou trem pode ser uma opção conveniente e ecologicamente sustentável para percorrer distâncias curtas. Verifique os horários e rotas disponíveis em sua região."
+        }
+        {
+            "descricao": "Carona Solidária: Se você conhece alguém que está indo na mesma direção que você, considere pedir uma carona. Compartilhar o mesmo veículo com outras pessoas pode reduzir as emissões de CO2 por pessoa e fortalecer os laços comunitários."
+        }
+    ]
+}
+{
+     "sugestoes - distância média (10 - 50km)": [
+        {
+            "descricao": "Bicicleta: Se você estiver disposto a percorrer distâncias um pouco maiores, \n
+            a bicicleta ainda pode ser uma ótima opção. Com uma bicicleta, você pode cobrir distâncias médias de forma rápida, \n
+            econômica e ecologicamente sustentável. Considere uma bicicleta elétrica se quiser uma assistência extra, \n
+            especialmente se houver colinas íngremes em seu percurso."
+        },
+        {
+            "descricao": "Transporte Público: Para distâncias médias, o transporte público continua sendo uma opção viável.\n
+            Ônibus, metrô, trem ou bondes podem ser eficazes para percorrer distâncias um pouco mais longas. \n
+            Eles oferecem a vantagem de permitir que você relaxe ou utilize o tempo de viagem de forma produtiva."
+        },
+        {
+            "descricao": "Carona Solidária: Se você não tem acesso a transporte público ou prefere uma opção mais flexível,\n
+            considerar compartilhar caronas com colegas de trabalho, amigos ou familiares pode ser uma solução. \n
+            Compartilhar o carro reduzirá as emissões de CO2 por pessoa e também pode ajudar a economizar dinheiro em combustível e estacionamento."
+        }
+        {
+            "descricao": "Carro Compartilhado: Se você precisar de um veículo por um curto período de tempo, \n
+            serviços de compartilhamento de carros, como car-sharing ou aluguel por hora, podem ser uma opção conveniente. \n
+            Eles oferecem acesso a um carro quando necessário, sem a necessidade de possuir um veículo pessoal, \n
+            o que pode reduzir as emissões de CO2 associadas à fabricação e manutenção de veículos."
+        }
+        {
+            "descricao": "Veículos Elétricos: Se você tiver acesso a um veículo elétrico,\n
+            como um carro elétrico ou uma bicicleta elétrica, eles podem ser uma excelente opção para distâncias médias.\n
+            Os veículos elétricos não emitem CO2 durante a condução e podem ser mais econômicos de operar em comparação com os veículos movidos a combustíveis fósseis."
+        }
+    ]
+}
+{
+    "sugestoes - distância grande (50km+)": [
+        {
+            "descricao": "Transporte Público de Longa Distância: Se estiver viajando entre cidades ou regiões distantes,\n
+            o transporte público de longa distância, como trens de alta velocidade, ônibus intermunicipais ou voos comerciais,\n
+            pode ser a opção mais prática e eficiente. Esses modos de transporte são projetados para cobrir grandes distâncias de forma rápida e confortável."
+        },
+        {
+            "descricao": "Carro: Para viagens de longa distância, muitas pessoas optam por dirigir seus próprios carros. \n
+            Se você possui um veículo eficiente em termos de consumo de combustível ou elétrico, isso pode ser uma opção conveniente. \n
+            Certifique-se de planejar sua rota com antecedência, considerando paradas para descanso e reabastecimento."
+        },
+        {
+            "descricao": "Carona Solidária ou Compartilhamento de Carro: Se você não tem acesso a um veículo próprio,\n
+            considerar compartilhar caronas ou usar serviços de car-sharing para viagens de longa distância pode ser uma opção econômica e sustentável.\n
+            Existem plataformas online que facilitam a conexão entre motoristas e passageiros que compartilham o mesmo destino."
+        }
+        {
+            "descricao": "Transporte Ferroviário de Alta Velocidade: Em algumas regiões do mundo,\n
+            trens de alta velocidade oferecem uma alternativa eficiente e confortável para viagens de longa distância.\n
+            Esses trens podem alcançar velocidades muito altas e geralmente têm uma pegada de carbono menor em comparação com outros modos de transporte."
+        }
+        {
+            "descricao": "Aviação Comercial: Para viagens muito longas ou para destinos internacionais,\n
+            voos comerciais são muitas vezes a opção mais prática. No entanto, \n
+            é importante estar ciente do impacto ambiental dos voos de longa distância e considerar compensações de carbono, quando disponíveis, \n
+            para mitigar as emissões de CO2 associadas à viagem de avião."
+        }
+    ]
+}
+
+{
+    "sugestao": {
+        "descricao": ""
+    }
+}
+
+// OBS:. Analisar qual é melhor usar
