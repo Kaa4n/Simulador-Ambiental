@@ -73,3 +73,4 @@ Aqui contém os requisitos técnicos e seus devidos passo a passo, para rodar o 
    Abra o MySQL Workbench e crie uma nova conexão, coloque um nome que escolher, o user como root e password a senha com qual criou o container do docker.
 
 Este é um processo básico para rodar um contêiner Docker local usando uma imagem genérica do MySQL. Você pode personalizar as configurações do MySQL conforme necessário, adicionando opções ao comando `docker run` ou montando volumes para persistência de dados, se desejar.
+
